@@ -2,8 +2,8 @@ public class Rectangle {
     private int a;
     private int b;
 
-    public void setB(int b) {
-        this.b = b;
+    public int getA() {
+        return a;
     }
 
     public void setA(int a) {
@@ -14,7 +14,12 @@ public class Rectangle {
         return b;
     }
 
-    public int getA() {
-        return a;
+    public void setB(int b) {
+        this.b = b;
+    }
+
+    public Rectangle(int a, int b) {
+        this.a = a;
+        this.b = b;
     }
 }
