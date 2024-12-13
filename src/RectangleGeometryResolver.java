@@ -1,4 +1,4 @@
-public class RectangleArea {
+public class RectangleGeometryResolver {
 
     public int area (Rectangle rectangle) {
         if (rectangle.getA() <= 0 || rectangle.getB() <= 0) {
